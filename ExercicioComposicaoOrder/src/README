@@ -1,0 +1,27 @@
+## CATEGORIAS DE CLASSES ##
+
+Em um sistema orientado a objetos, de modo geral "tudo" é objeto.
+
+Por questões tais como organização, flexibilidade, reuso, delegação, etc, há várias categorias de classes:
+
+Views = Telas do sistema;
+Controllers = Controladores ennte o front e o backend;
+Entities = Entidade de negocios como produtos, clientes;
+Services = Serviços;
+Repositories = Objetos responsáveis por acessar o banco de dados
+
+
+>>COMPOSIÇÃO<<
+
+É um tipo de associação que permite que um objeto contenha outro
+
+Relação "tem-um" ou "tem-vários"
+
+**Vantagens
+Organização: divisão de responsabilidade
+Coesão
+Flexibilidade
+Reuso
+
+__Nota: embora o símbolo UML para composição (todo-parte) seja o diamante preto, neste contexto estamos chamando
+de composição qualquer associação tipo "tem-um" e "tem-vários".
